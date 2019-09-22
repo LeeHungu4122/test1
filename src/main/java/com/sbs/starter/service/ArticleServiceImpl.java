@@ -1,6 +1,5 @@
 package com.sbs.starter.service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -9,8 +8,12 @@ import org.springframework.stereotype.Service;
 
 import com.sbs.starter.dao.ArticleDao;
 import com.sbs.starter.dto.Article;
+import com.sbs.starter.util.CUtil;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Service
+@Slf4j
 public class ArticleServiceImpl implements ArticleService{
 	@Autowired
 	ArticleDao articleDao;
@@ -22,7 +25,9 @@ public class ArticleServiceImpl implements ArticleService{
 	}
 
 	@Override
-	public void add(Map<String, Object> param) {
+	public long add(Map<String, Object> param) {
 		articleDao.add(param);
+		
+		return CUtil.getAsLong(param.get("id"));
 	}
 }
