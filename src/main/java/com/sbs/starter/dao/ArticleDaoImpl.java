@@ -23,3 +23,5 @@ public class ArticleDaoImpl implements ArticleDao {
 		return list;
 	}
 }
+
+// 여기서 마이바티스가 대신 작업하도록 한다. (마이바티스는 진짜 DB에서 가져오는 것.)
