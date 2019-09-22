@@ -1,0 +1,29 @@
+[33mcommit 6393d76db2ba8f247edf930de010e67f9b9e43f6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 22 15:32:25 2019 +0900
+
+    게시물리스트를  자바버전과 el, jstl 버전 2가지로생성 후 자바버전 제거
+
+[33mcommit e4a68f066b07fc8aaeb74e8f31cc651ef63e7317[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 22 15:16:21 2019 +0900
+
+    articleService, articleServiceImpl, ArticleDto 생성 및 세팅, getList() 함수를 구현(확인용 임시 데이터 사용해 리턴하도록 함)
+
+[33mcommit fe132c3700ba113163b4b7685421b5a47b4415e5[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 22 14:59:43 2019 +0900
+
+    article/list 로 접속하면 list.jsp 나오게 하기.
+
+[33mcommit ae3f705a7e49b8f9d1923c627c8e38643a0c269d[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sat Sep 21 17:05:08 2019 +0900
+
+    세팅, HomeController 추가, sample.txt 삭제
+
+[33mcommit 0a4eeeb0e3a386f35eb39795760cc7406ff9b9e8[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Wed Sep 4 18:42:33 2019 +0900
+
+    first commit
